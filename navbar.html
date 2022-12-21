@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .header {
+            /* border: 1px solid black; */
+            box-shadow: 10px 15px 15px gray;
+        }
+
+        aside {
+            border: 1px solid blue;
+        }
+
+        .header div {
+            display: inline-block;
+        }
+
+        .list ul li {
+            display: inline-flex;
+            text-decoration: none;
+            padding: 10px;
+            font-size: large;
+            margin: 10px;
+        }
+
+        header .profile li {
+            display: inline-block;
+            padding: 10px;
+        }
+
+        header .profile {
+            float: right;
+            margin-right: 15px;
+        }
+        .dropdown-menu{
+            left: 20% !important;
+            right: auto!important;
+            text-align: center !important;
+            transform: translate(-50%, 0) !important;
+        }
+        .dropdownMenuButton{
+            margin-right: 70px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="welcome">
+            <h3 style="margin-left: 20px;">Welcome username</h3>
+        </div>
+        <div class="list">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects<span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Project 1</a></li>
+                        <li><a href="#">Project 2</a></li>
+                        <li><a href="#">Project 3</a></li>
+                        <li><a href="#">Create project</a></li>
+
+                    </ul>
+                </li>
+                <button class="btn btn-primary navbar-btn"><a href="loginformJEERA.html"
+                        style="color: white;">Create</a></button>
+                <!-- <a href="#"></a> -->
+            </ul>
+        </div>
+        <div class="profile">
+            <ul id="profile">
+                <li>
+                    <form><input type="text" placeholder="search" style="margin-top: 10px;"></form>
+                </li>
+                <!-- <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li> -->
+                <li style="margin-top: 10px;">
+
+                    <!-- <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"><span class="glyphicon glyphicon-cog"></span>
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">My Profile</a></li>
+                      <li><a href="#">User Management</a></li>
+                      <li><a href="#">Logout</a></li>
+                    </ul> -->
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="glyphicon glyphicon-cog"></span>
+                            <span class="caret"></span>
+                            
+                        </button>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li> <a class="dropdown-item" href="#">Action</a></li>
+                            <li> <a class="dropdown-item" href="usermanagementpagejeera.html">User Management</a></li>
+                            <li> <a class="dropdown-item" href="#">Logout</a></li>
+                           
+
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div>
+    <div class="container-fluid">
+        <div class="row">
+           <aisle>
+            <br>
+               <h2 style="
+               margin-left:20px">No Recent Projects</h2>
+            </aisle>
+        </div>
+    </div>
+</body>
+
+</html>
