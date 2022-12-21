@@ -1,0 +1,178 @@
+.main{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.div1{ 
+    height: 140px;
+    width: 70%;
+    background-color: #F4F5F7;
+    border-radius: 8px;
+    color: #172B4D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4;
+    display: flex;
+    /* margin: 16px 0px; */
+    /* border: 1px solid red; */
+    cursor: pointer;
+    align-items: center;
+}
+
+.div2{
+    height: 140px;
+    width: 70%;
+    background-color: #F4F5F7;
+    border-radius: 8px;
+    color: #172B4D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4;
+    display: flex;
+    /* margin: 16px 0px; */
+    /* border: 1px solid red; */
+    cursor: pointer;
+    align-items: center;
+}
+.div1-child1{
+    height: 100%;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.42;
+    cursor: pointer;
+    /* border: 1px solid black; */
+    padding: 0px 10px;
+    align-items: center;
+    background-color: #F4F5F7;
+    
+}
+.div2-child1{
+    height: 100%;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.42;
+    cursor: pointer;
+    /* border: 1px solid black; */
+    padding: 0px 10px;
+    align-items: center;
+    background-color: #F4F5F7;
+}
+.div-child-1{
+    height: 137px;
+    width: 255px;
+    background-image: url(https://miro.medium.com/max/1134/0*PksG-W1bfN5zeyHB);
+    background-size: cover;
+    cursor: pointer;
+    line-height: 1.42;
+    display: flex;
+    
+}
+.div1-child2{
+    --leftPanelWidth: 0px;
+--rightSidebarWidth: 0px;
+--topNavigationHeight: 56px;
+--leftSidebarWidth: 240px;
+--leftSidebarFlyoutWidth: 240px;
+font-weight: 400;
+justify-content: center;
+flex-direction: column;
+/* border: 2px solid black; */
+height: 100%;
+width: 60%;
+}
+.div2-child2{
+    --leftPanelWidth: 0px;
+    --rightSidebarWidth: 0px;
+    --topNavigationHeight: 56px;
+    --leftSidebarWidth: 240px;
+    --leftSidebarFlyoutWidth: 240px;
+    font-weight: 400;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    height: 100%;
+    width: 60%;
+}
+.div-child-2{
+    height: 137px;
+    width: 255px;
+    background-image: url(https://itsm.tools/wp-content/uploads/2020/11/kanban-board-1024x512.png);
+    background-size: cover;
+    cursor: pointer;
+    line-height: 1.42;
+    display: flex;
+    border-image: round;
+    background-image:cover ;
+    
+}
+
+/* .btn-1{ */
+    /* cursor: pointer;
+    inset: 0px;
+    border-radius: 8px;
+    text-decoration-skip-ink: auto; */
+
+    /* all: unset; */
+    /* position: absolute;
+    width: 20%;
+    height: 19%;
+    cursor: pointer; */
+    /* inset: 0px; */
+    /* border-radius: 8px;
+    border: 1px solid rebeccapurple ;
+   
+} */
+/* .div-child-2{
+    display: flex;
+    line-height: 1.2;
+    margin: 12px 0 0 0;
+    cursor: pointer;
+} */
+
+
+.div2-child3{
+    height: 140px;
+    width: 10%;
+    background-color: #F4F5F7;
+    border-radius: 8px;
+    color: #172B4D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4;
+    display: flex;
+    /* margin: 16px 0px; */
+    /* border: 1px solid red; */
+    cursor: pointer;
+    align-items: center;
+}
+
+.div1-child3{
+    height: 140px;
+    width: 10%;
+    background-color: #F4F5F7;
+    border-radius: 8px;
+    color: #172B4D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4;
+    display: flex;
+    /* margin: 16px 0px; */
+    /* border: 1px s1olid red; */
+    cursor: pointer;
+    align-items: center;
+}
+
