@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Adding HTML elements dynamically</title>
+   <!-- <style>
+      h1 {
+         color: green;
+         display: flex;
+         justify-content: center;
+      }
+      #mybutton {
+         display: block;
+         margin: 0 auto;
+      }
+      #innerdiv {
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+      }
+   </style> -->
+   
+</head>
+<body>
+   <div id="container" style="display: inline-flex;">
+     
+      <section id="mainsection" >
+              
+              <div style="height: 50px; width: 50px; background-color: rgb(202, 206, 206); margin-right: 5px;">
+             <p>sai</p>
+              </div>
+             
+      </section>
+      
+    </div>
+    <button id="newsectionbtn">+</button>
+    <script>
+      document.getElementById("newsectionbtn").onclick = function() {
+  var container = document.getElementById("container");
+  var section = document.getElementById("mainsection");
+  container.appendChild(section.cloneNode(true));
+}
+    </script>
+
+
+ 
+</body>
+</html>
