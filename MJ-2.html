@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <!-- bootstrap 4 css link -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"> -->
+    <!-- bootsrap 3 css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" >
+       
+      <!-- bootstrap 4 cdn link-->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script> -->
+    <!-- bootstrap 3 js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js"></script>
+   
+
+    <style>
+        body{
+    background-image:url("https://images.squarespace-cdn.com/content/v1/5cc2e88134c4e204158f6af6/1633607061545-WXZBJPR9FLROCBNG3MLZ/managerial-behavior-and-informal-performance-management.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:left;
+background-size: contain;
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  */
+    background-color:#f9f6f6;
+} 
+
+.form-container{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 200px; 
+    margin-bottom: 250px;
+    padding: 26px 24px 46px;
+    /* background: #fff transparent; */
+    border-radius: none;
+    /* box-shadow: 10px 10px 10px  black ; */
+    
+    background-color: transparent;
+
+}
+
+.control-label{
+    width:100px
+}
+ .form-container:hover{
+    background: #fff ;
+    box-shadow: 5px 5px 5px  5px  gray;
+ }
+
+.container{
+    margin-top: 100px;
+    margin-right: 200px;
+    
+    
+}
+
+ /* img{
+width: 700px;
+height: 450px;
+margin-top: 350px;
+
+ width: 0;
+      height: 0; 
+      
+}  */
+  
+    
+.login .button-success{
+    float:inline-start;
+}
+.container   input{
+    width: 250px;
+    font-size: 18px;
+     height: 40px;
+    
+     
+    }
+.form-control{
+    
+        display: block;
+        color: rgb(236, 60, 60);
+        font-size: 18px;
+    }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center">
+    <div class="col-12 col-sm-6 col-md-3">
+       
+        <form id="loginform" method="post" class="form-container needs-validation"  name="form" role="form"  action="success.html"novalidate>
+            <h6 style="text-align: center; font-size: 23px; font-weight: bolder; "> <bold> WELCOME TO JEERA</bold> </h6>
+            <br><br>
+            <div class="form-group">
+                <input type="email" id="user" name="username" placeholder="Enter user name" class="form-control" required>
+                <label id="error"></label>
+                
+
+                
+             </div>
+                <div class="form-group " >
+                  <input type="password" name="password" id="pswd" placeholder="Enter password" class="form-control"  required>
+                  <label id="error1"></label>
+                  
+                </div>
+             <div class="form-group" >
+                <button type="submit" value="Login" id="login" class="btn btn-success btn-block " onclick="return validate()">Login</button>
+                </div>
+
+        </form>
+        
+    </div>
+</div >
+    </div>
+     
+        <!-- <img src="images/jeera 1.jpg" class="float-right">
+   -->
+     <!--  jquery link -->
+    <script src="jquery-3.6.1.js"></script>
+    <!-- jquery validation link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+     <script scr="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/additional-methods.min.js"></script>
+    <!-- custom javascript -->
+    <script src="loginpage.js"></script>
+    
+    
+    
+
+
+
+</body>
+
+</html>
